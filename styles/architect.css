@@ -168,6 +168,10 @@ main > section{
     width: 100%;
 }
 
+.feature-architect img{
+    width: 100%;
+}
+
 /* some feacts related styles */
 .facts-container{
     display: grid;
@@ -237,8 +241,8 @@ main > section{
     }
 
     #experience-bedge{
-    margin-left: 45px;
-    margin-top: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
     }
      .facts-container{
         justify-items: center;
@@ -257,7 +261,7 @@ main > section{
 
 /* responsive design for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,.love-features{
         flex-direction: column;
     }
 
@@ -270,5 +274,10 @@ main > section{
 
     .our-features{
         margin: 50px auto ;
+    }
+
+    #experience-bedge{
+    margin-left: 20px;
+    margin-top: 20px;
     }
 }
